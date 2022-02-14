@@ -58,4 +58,4 @@ with open('lpnu.txt', 'w', encoding='UTF-8') as file:
         lpnu.append(instute)
 
 with open('lpnu.json', 'w', encoding='utf-8') as json:
-    dump(lpnu, json, ensure_ascii=False, indent=4)
+    dump(lpnu, json, ensure_ascii=False, indent=2)
